@@ -1,5 +1,8 @@
 /*
-    # This solution runs in O(n) time complexity. I think (for now) the only solution is O(n) because the program has to run through each element in the array. The numerical order does not matter. Therefore I created two bins called "even" and "odd" to keep elements of each category, then concatenate both. Space efficiency is O(n) because space only grows as much as # of input elements.
+    # This solution runs in O(n) time complexity. I think (for now) the only solution is O(n) because the
+    program has to run through each element in the array. The numerical order does not matter. Therefore I
+    created two bins called "even" and "odd" to keep elements of each category, then concatenate both.
+    Space efficiency is O(n) because space only grows as much as # of input elements.
     
 Questions:
 1. How to reduce memory use (non-copy)?
