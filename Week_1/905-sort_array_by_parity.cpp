@@ -4,6 +4,7 @@
 Questions:
 1. How to reduce memory use (non-copy)?
 2. How to improve time?
+3. How to improve the elegance of my code?
 */
 
 class Solution {
