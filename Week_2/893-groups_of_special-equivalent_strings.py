@@ -20,8 +20,6 @@ class Solution:
                     else:
                         self.odd.update({l: 1})
                 
-                self.even = OrderedDict(sorted(self.even.items(), key=lambda item: item[0], reverse=False))
-                
             def __eq__(s1,s2):
                 if len(s1.even) != len(s2.even) or len(s1.odd) != len(s2.odd):
                     return False
